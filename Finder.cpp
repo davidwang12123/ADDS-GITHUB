@@ -22,7 +22,7 @@
     }
 
    
-
+/*
 
 int main()
 {
@@ -33,3 +33,4 @@ int main()
         cout << result[i] << endl;
    } 
 }
+*/
