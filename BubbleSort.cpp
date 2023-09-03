@@ -70,14 +70,12 @@ std::vector<int> BubbleSort::sort_optimized_2(std::vector<int> list)
     return list;
 
   int compareSize = (int)list.size();
-  bool swapped = false;
   int lastSwapPos = 0;
   int tempValue = 0;
 
   while (true)
   {
     lastSwapPos = 0;
-    swapped = false;
 
     for (int i = 0; i <= compareSize - 2; i++)
     {
